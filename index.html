@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-section col-1">
+      <div class="center-left-content">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.
+        </p>
+      </div>
+    </div><!--/.leftsection-->
+    <div class="right-section col-2">
+      <div class="center-right-content">
+        <div class="top-link">
+          <a href=""><span>Try it free 7 days</span> then $20/mo. thereafter</a>
+        </div>
+        <form id="user-info" action="#" method="post" class="needs-validation" >
+          <input id="firstname" type="text" name="firstname" placeholder="First Name" required oninput="this.setCustomValidity('')">
+          <i hidden="" >First Name cannot be empty</i>
+          <br>
+          <input id="lastname" type="text" name="lastname" placeholder="Last Name" required oninput="this.setCustomValidity('')">
+          <i hidden="">Last Name cannot be empty</i>
+          <br>
+          <input id="email" type="email" name="email" placeholder="" required  oninput="this.setCustomValidity('')">
+          <i hidden="">Looks like this is not an email</i>
+          <br>
+          <input id="password" type="password" name="password" placeholder="Password" required oninput="this.setCustomValidity('')">
+          <i hidden="">Password cannot be empty</i>
+          <br>
+          <button type="submit">Claim your free trial</button>
+          <p>
+            By clicking the button, you are agreeing to our <span>Terms and Services</span>
+          </p>
+        </form>
+      </div><!-- .center-right-content -->
+    </div><!--/.right-section-->
+  </div><!--/.container-->
+  <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Babajide</a>.
+      </p>
+    </footer>
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script src="js/myjs.js">
+
+
+  </script>
+</body>
+</html>
