@@ -78,6 +78,10 @@
 		/*width: 350px;*/
 	}
 
+	.top-link:hover {
+		cursor: pointer;
+	}
+
 	.top-link a {
 		color: #fff;
 		text-decoration: none;
