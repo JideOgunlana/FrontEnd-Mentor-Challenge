@@ -110,7 +110,7 @@
 		margin-bottom: 10px;
 	}
 
-	input .redplaceholder {
+	input.redplaceholder {
 	color: hsl(0, 95%, 76%);
 	}
 
