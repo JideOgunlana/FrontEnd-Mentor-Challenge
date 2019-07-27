@@ -21,18 +21,18 @@ $(document).ready(function () {
 
   addPlaceHolder();
 
-//   button.addEventListener('click', function () {
-//     $('input:invalid').css('border', '1px solid hsl(0, 100%, 74%)');
-//     $('input:invalid+i').css({
-//       'color': 'hsl(0, 100%, 74%)',
-//       'font-size': '12px',
-//       'font-weight': '400',
-//       // 'border': '1px solid green',
-//       'float': 'right',
-//       'margin-bottom': '15px',
-//       'display': 'block'
-//     });
-//   });
+  button.addEventListener('click', function () {
+    $('input:invalid').css('border', '1px solid hsl(0, 100%, 74%)');
+    $('input:invalid+i').css({
+      'color': 'hsl(0, 100%, 74%)',
+      'font-size': '12px',
+      'font-weight': '400',
+      // 'border': '1px solid green',
+      'float': 'right',
+      'margin-bottom': '15px',
+      'display': 'block'
+    });
+  });
 
 
   firstNameInput.addEventListener('input', function (event) {
