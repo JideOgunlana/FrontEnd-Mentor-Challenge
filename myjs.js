@@ -107,7 +107,6 @@ $(document).ready(function () {
         'margin-bottom': '15px',
         'display': 'block'
       });
-      $('#email').addClass('redplaceholder');
     }
   });
 
